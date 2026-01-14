@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT ikea-search-input",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zaa9m4HYeU2qYpnaGjs9DQ",
+  "Reference": "sMLC9XSChkiSKFPzo6cf7Q/zaa9m4HYeU2qYpnaGjs9DQ",
+  "ParentRef": "sMLC9XSChkiSKFPzo6cf7Q/8UnErVh3ZUOj-oMQ19Tt9g",
+  "Created": "2026-01-14T21:06:48.8581167Z",
+  "Updated": "2026-01-14T21:06:48.8581167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

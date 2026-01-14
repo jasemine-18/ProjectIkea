@@ -119,14 +119,14 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="570,3239.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="570,3570.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Int32" Name="topN" />
       <Variable x:TypeArguments="x:String" Name="preferredKeyword" />
       <Variable x:TypeArguments="x:Double" Name="maxPrice" />
       <Variable x:TypeArguments="x:String" Name="searchKeyword" />
       <Variable x:TypeArguments="x:String" Name="category" />
       <Variable x:TypeArguments="sd:DataRow" Name="rowReq" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="topN" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -242,18 +242,24 @@
       </Assign.Value>
     </Assign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Processing: &quot; + category + &quot; | &quot; + searchKeyword + &quot; | Max=&quot; + maxPrice.ToString]" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,217" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="1f6a9a29-d9f9-4fdd-8963-38b7817324aa" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,548" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[in_Browser]" IsDisplayNameAuto="True" ScopeGuid="7ca99dc8-cbd3-4d25-996a-f8ff1a7d8977" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,94.5" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,425.5" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <uix:NGoToUrl DisplayName="Go To URL - ikea.com" sap:VirtualizedContainerService.HintSize="416,123.5" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="7ca99dc8-cbd3-4d25-996a-f8ff1a7d8977" Url="https://www.ikea.com/ro/ro/" Version="V5" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT ikea-search-input'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,242" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="7ca99dc8-cbd3-4d25-996a-f8ff1a7d8977" Text="[searchKeyword + &quot;[k(enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="ikea.com/ro/ro" CVScreenId="c6a6d514-a6c7-45f4-9186-042cb4a886c9" ContentHash="JPJd-ZgpkUCJ9d-ofwq0ag" CvElementArea="385, 494, 1192, 99" CvType="InputBox" DesignTimeRectangle="386, 497, 1112, 96" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ikea-search-input' tag='INPUT' /&gt;" Guid="ed35e569-edbc-47c4-95ea-757755703ae3" InformativeScreenshot="a5eb25a561994959b4185959803c9547.png" Reference="sMLC9XSChkiSKFPzo6cf7Q/zaa9m4HYeU2qYpnaGjs9DQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Idei de amenajare și mobilier la prețuri accesibile. - IKEA' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
