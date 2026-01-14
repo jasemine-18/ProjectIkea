@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SANDSBERG",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "D2gPd2xyTkWkk8waCxg0SQ",
+  "Reference": "sMLC9XSChkiSKFPzo6cf7Q/D2gPd2xyTkWkk8waCxg0SQ",
+  "ParentRef": "sMLC9XSChkiSKFPzo6cf7Q/tclLBP7azUurk_66vVH2Gw",
+  "Created": "2026-01-14T21:41:49.9128916Z",
+  "Updated": "2026-01-14T21:41:49.9128916Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

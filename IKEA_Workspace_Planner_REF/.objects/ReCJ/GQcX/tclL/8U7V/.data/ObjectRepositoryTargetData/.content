@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="T5TM33kUVkGzppncto9Prg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ikea.com/ro/ro/search" CVScreenId="daa53e00-91c0-4daf-a397-c2520495ff23" CvType="AnyWordGroup" DesignTimeRectangle="702, 1042, 141, 76" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='notranslate' parentid='product-list' tag='SPAN' /&gt;" Guid="a5d2d1c3-e186-4575-9a86-51c9094fd528" ScopeSelectorArgument="&lt;html app='chrome.exe' title='scaun - IKEA' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3fa5f7cd6583df9f3cb22e54b9e69930.png" xmlns="">0qamWb_DDckCY2IXKzr-xKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

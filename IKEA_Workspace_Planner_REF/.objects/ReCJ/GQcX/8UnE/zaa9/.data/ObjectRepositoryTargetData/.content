@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="JPJd-ZgpkUCJ9d-ofwq0ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="RHVb_RAdvEiuZ5-X341JIA" Reference="sMLC9XSChkiSKFPzo6cf7Q/zaa9m4HYeU2qYpnaGjs9DQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ikea.com/ro/ro" CVScreenId="c6a6d514-a6c7-45f4-9186-042cb4a886c9" CvElementArea="385, 494, 1192, 99" CvType="InputBox" DesignTimeRectangle="386, 497, 1112, 96" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ikea-search-input' tag='INPUT' /&gt;" Guid="ed35e569-edbc-47c4-95ea-757755703ae3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Idei de amenajare și mobilier la prețuri accesibile. - IKEA' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="a5eb25a561994959b4185959803c9547.png" xmlns="">0eMq-HDOK6kmgCNXu1zcb_A</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ikea.com/ro/ro" CVScreenId="da60e676-34c8-46e2-94de-060c452e4cd9" CvElementArea="384, 494, 1193, 99" CvType="InputBox" DesignTimeRectangle="386, 497, 1112, 96" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ikea-search-input' tag='INPUT' /&gt;" Guid="f96521fa-be19-4c5c-bebb-d9541b294362" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Idei de amenajare și mobilier la prețuri accesibile. - IKEA' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="13, 455, 2850, 180" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;header&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="fcb51919-b55b-4add-82df-631724174f0e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c560fe0cc1f87dfeeedefe1846208b92.png" xmlns="">0dBaqk8yBmUi4JSoc9-1c9Q</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
