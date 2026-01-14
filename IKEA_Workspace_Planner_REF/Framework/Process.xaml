@@ -103,7 +103,7 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="592,2997.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="592,2837.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="topN" />
       <Variable x:TypeArguments="x:String" Name="preferredKeyword" />
@@ -121,9 +121,9 @@
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;TransactionItem type = &quot; + If(in_TransactionItem Is Nothing, &quot;NULL&quot;, in_TransactionItem.GetType().ToString)]" />
     <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="452,88.5" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
-    <If Condition="[in_TransactionItem Is Nothing]" sap:VirtualizedContainerService.HintSize="452,412.5" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[in_TransactionItem Is Nothing]" sap:VirtualizedContainerService.HintSize="452,416.5" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,178.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,182.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -150,9 +150,9 @@
         <InArgument x:TypeArguments="sd:DataRow">[TryCast(in_TransactionItem, System.Data.DataRow)]</InArgument>
       </Assign.Value>
     </Assign>
-    <If Condition="[rowReq Is Nothing]" sap:VirtualizedContainerService.HintSize="452,408.5" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[rowReq Is Nothing]" sap:VirtualizedContainerService.HintSize="452,416.5" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,178.5" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,182.5" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -162,7 +162,7 @@
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90.5" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,94.5" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -171,9 +171,9 @@
         </Sequence>
       </If.Else>
     </If>
-    <If Condition="[Not rowReq.Table.Columns.Contains(&quot;Category&quot;) OrElse&#xD;&#xA;Not rowReq.Table.Columns.Contains(&quot;SearchKeyword&quot;) OrElse&#xD;&#xA;Not rowReq.Table.Columns.Contains(&quot;MaxPriceRON&quot;) OrElse&#xD;&#xA;Not rowReq.Table.Columns.Contains(&quot;TopN&quot;)]" sap:VirtualizedContainerService.HintSize="452,412.5" sap2010:WorkflowViewState.IdRef="If_4">
+    <If Condition="[Not rowReq.Table.Columns.Contains(&quot;Category&quot;) OrElse&#xA;Not rowReq.Table.Columns.Contains(&quot;SearchKeyword&quot;) OrElse&#xA;Not rowReq.Table.Columns.Contains(&quot;MaxPriceRON&quot;) OrElse&#xA;Not rowReq.Table.Columns.Contains(&quot;TopN&quot;)]" sap:VirtualizedContainerService.HintSize="452,416.5" sap2010:WorkflowViewState.IdRef="If_4">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,178.5" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,182.5" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -214,14 +214,6 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:Double">[CDbl(rowReq("MaxPriceRON").ToString)]</InArgument>
-      </Assign.Value>
-    </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="Assign_5">
-      <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[preferredKeyword]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[rowReq("PreferredKeyword").ToString]</InArgument>
       </Assign.Value>
     </Assign>
     <Assign sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="Assign_6">
