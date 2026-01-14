@@ -1,0 +1,6 @@
+{
+  "Name": "IKEA_Workspace_Planner_REF",
+  "ProjectType": "Process",
+  "Description": "Corporate Office Workspace Planner - IKEA ",
+  "MainFile": "Main.xaml"
+}
