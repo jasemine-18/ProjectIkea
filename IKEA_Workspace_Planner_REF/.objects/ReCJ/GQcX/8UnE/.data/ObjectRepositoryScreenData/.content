@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="XudN--brHESAs8Z4E9dTzw" Reference="sMLC9XSChkiSKFPzo6cf7Q/8UnErVh3ZUOj-oMQ19Tt9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-13, -13, 2906, 1730" BrowserType="Chrome" ContentHash="KLZqapvn0UyquIT-fLSgiA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAFhSURBVGhD7VY7TgMxFNw6NRfgKLkBoqJEFDkHB8gFoE3BOVKHjpIiR+AIRoP00Mu8511HslgszUgjrWaf530cOztNgiAIgiAIgrAeHg5laAZhNAZhgbv9U3l+vS8vb9vyfrz94fl0U74+NqV8Tk1ELNbYenjB827/GPItMghEmFqx1xZ6LX1jyNnUUBCSojnRX7GpGRawlWsWXSN2B7VxvRcNoFNbwIFLejahLJ7pi0R+fs/DDDG1YDaa04PpTDzTF5cNwQ8VRI0XMfaA35oPZKOajnWstfgwMx+foxprD3y7sElNZ3Iyfp95gn4X4eF3A88+FrX++thDrwY4Gb/PPHn6meYHkzawNLmazolA3Ba1eJ/DmJ0hpvdMf0Jgz0Nsh491ZksMaDtbPcRg72s02x0me5of6+YXhsVBQ/+RGYf+lGByM3xb9WS3j7k5wnSoz+l/zyCMRkEQBEEQBEFYDd+qh7KCM0U5SAAAAABJRU5ErkJggg==" Reference="sMLC9XSChkiSKFPzo6cf7Q/8UnErVh3ZUOj-oMQ19Tt9g" Selector="&lt;html app='chrome.exe' title='Idei de amenajare și mobilier la prețuri accesibile. - IKEA' /&gt;" Url="https://www.ikea.com/ro/ro/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="4646c253912ef3edd3c4c9daaf03f25f.jpg" xmlns="">0iSPdsXWDy06KHO_Ohp5arQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

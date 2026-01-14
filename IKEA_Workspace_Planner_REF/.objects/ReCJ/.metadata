@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Idei de amenajare și mobilier la prețuri accesibile. - IKEA",
+  "Type": "App",
+  "Id": "ReCJjcexk027ARNDq_TzuA",
+  "Reference": "sMLC9XSChkiSKFPzo6cf7Q/ReCJjcexk027ARNDq_TzuA",
+  "Created": "2026-01-14T19:38:30.4569618Z",
+  "Updated": "2026-01-14T19:38:30.4569618Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

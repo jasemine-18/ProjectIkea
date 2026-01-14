@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Idei de amenajare și mobilier la prețu",
+  "Type": "Screen",
+  "Id": "8UnErVh3ZUOj-oMQ19Tt9g",
+  "Reference": "sMLC9XSChkiSKFPzo6cf7Q/8UnErVh3ZUOj-oMQ19Tt9g",
+  "ParentRef": "sMLC9XSChkiSKFPzo6cf7Q/GQcXcIyXmEiMsaJCKe5AbQ",
+  "Created": "2026-01-14T19:38:30.9729Z",
+  "Updated": "2026-01-14T19:38:30.9729Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
