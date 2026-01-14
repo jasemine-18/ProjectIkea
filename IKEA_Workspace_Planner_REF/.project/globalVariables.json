@@ -6,13 +6,5 @@
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": null,
     "IsLiteral": false
-  },
-  {
-    "Constant": false,
-    "Name": "uiBrowser_IKEA",
-    "TypeFullyQualifiedName": "UiPath.Core.Browser, UiPath.UiAutomation.Activities, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
-    "UnresolvedTypeFullyQualifiedName": null,
-    "Expression": null,
-    "IsLiteral": false
   }
 ]
