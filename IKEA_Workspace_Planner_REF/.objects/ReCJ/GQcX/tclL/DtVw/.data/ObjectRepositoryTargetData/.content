@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="SYi6qc_8OUOwM0UVqwwWqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="z20ywnWBlEGFN3dN3nzz2A" Reference="sMLC9XSChkiSKFPzo6cf7Q/DtVwuI8cU0a3nr-D5Va-CQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ikea.com/ro/ro/search" DesignTimeRectangle="109, 896, 528, 1358" ElementType="List" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul' parentid='content' tag='UL' /&gt;" Guid="c04ad3bc-ba91-4925-a2ba-70b443f82c65" ScopeSelectorArgument="&lt;html app='chrome.exe' title='scaun - IKEA' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="a6d3039e0447e177e05b7c64606f1d77.png" xmlns="">05m5izammAUy33IRIReVgcQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ikea.com/ro/ro/search" DesignTimeRectangle="685, 1027, 2082, 7296" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='product-list' tag='DIV' /&gt;" Guid="6914947a-6317-49f9-90f9-f30dd1f99fc7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='lampa - IKEA' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f799953b2d2c0f0cd48a1e14d90b4e08.png" xmlns="">0kvmOEajiqUKTwHShDlJRBw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
