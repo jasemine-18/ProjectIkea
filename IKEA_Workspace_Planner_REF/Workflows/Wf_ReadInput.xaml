@@ -107,7 +107,7 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Wf_ReadInput" sap:VirtualizedContainerService.HintSize="592,2066.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Wf_ReadInput" sap:VirtualizedContainerService.HintSize="570,2066.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Filtered" />
     </Sequence.Variables>
